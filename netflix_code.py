@@ -143,7 +143,7 @@ df[df['Popularity'] == df['Popularity'].max()]
 # checking min popularity in dataset
 df[df['Popularity']==df['Popularity'].min()]
 
-"""# Q5: Which year has the most filmmed movies?"""
+"""# Q5: Which year has the most filmed movies?"""
 
 df['Release_Date'].hist()
 plt.title('Release_Date distribution')
